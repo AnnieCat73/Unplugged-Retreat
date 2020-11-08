@@ -142,6 +142,7 @@ textarea {
    }
 
    img {
+     width: 100%;
 
    }
 
@@ -265,6 +266,8 @@ textarea {
     /* Hero Area */
 
     .hero-area {
+      background: url('img/image.jpg') center no-repeat #333;
+      background-size: cover;
       display: flex;
       justify-content: center;
       flex-flow: row wrap;
