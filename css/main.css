@@ -245,6 +245,8 @@ textarea {
       margin: 50px 0;  /* could have something wrong with html code here/could be .footer-content instead of content-wrapper*/
     }
 
+    
+
     footer .contact {
       margin-bottom: 50px;
     }
@@ -255,11 +257,27 @@ textarea {
      align-items: center;
    }
 
-   footer .social-icons p {
+   footer .social-icons  {
      display: flex;
-     justify-content: center;
+     justify-content: space-between;
      align-items: center;
    }
+
+   footer .social-icons p {
+    background-color: #527158;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+   footer .social-icons p i {
+    font-size: 1.3125em;
+  }
 
    footer .copyright {
      margin: 20px 0;
@@ -389,6 +407,8 @@ textarea {
       margin: 20px 0;
 
     }
+
+    
 
     
 
@@ -708,6 +728,10 @@ textarea {
        margin-bottom: 0;
      }
 
+     .footer-content .contact h4 {
+       margin-top: 0px;
+     }
+
      footer h4 {
        font-size: 1.5em;
        margin-bottom: 40px;
@@ -723,12 +747,22 @@ textarea {
        justify-content: center;
      }
 
+     footer .social {
+      width: 35%;
+    }
+
      footer .social h4 {  /*changed from Skillcrush code plus footer . contact h4 below*/
       margin-top: 0;
     }
 
     footer .contact h4 {
       margin-top: 40px;
+    }
+
+    footer .social-icons  {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
      /*----- About page ------------*/
@@ -799,6 +833,8 @@ textarea {
        font-size: .875em;
        line-height: 1.125;
      }
+
+    
     }
 
    @media only screen and (min-width: 1200px) {
